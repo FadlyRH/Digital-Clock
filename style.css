@@ -9,6 +9,7 @@ body{
     background : url(backgroundtest.gif);
     background-size: cover;
     background-position: center;
+    color: white;
     
     font-family: Arial, sans-serif;
 
