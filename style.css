@@ -6,15 +6,35 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: white;
-    color: black;
+    background : url(backgroundtest.gif);
+    background-size: cover;
+    background-position: center;
     
     font-family: Arial, sans-serif;
 
 }
 
 .jam-container{
+    padding: 40px 60px;
     text-align: center;
+
+    /* efek transparan */
+    background : rgba(255, 255, 255, 0.15);
+    
+    /* efek kaca */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    /*border tipis*/
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    /*sudut membulat*/
+    border-radius: 20px;
+
+    /* efek bayangan */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+    color: white;
 }
 
 #jam{
