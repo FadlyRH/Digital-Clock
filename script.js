@@ -26,3 +26,13 @@ setInterval(tampilkanjam, 1000);
 
 //jalankan langsung saat halaman dimuat
 tampilkanjam();
+
+const quotes = [
+    "Jangan pernah menyerah pada impianmu.",
+    "Kesuksesan adalah hasil dari kerja keras dan ketekunan.",
+    "Setiap hari adalah kesempatan baru untuk memulai lagi."
+];
+
+const randomquote = quotes[Math.floor(Math.random() * quotes.length)];
+
+document.getElementById("quotes").textContent = randomquote;
