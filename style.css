@@ -1,4 +1,28 @@
-*{
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+    
+    font-family: Arial, sans-serif;
+
+}
+
+.jam-container{
     text-align: center;
-    margin-top: 150px;
+}
+
+#jam{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#tanggal{
+    margin-top: 10px;
+    font-size: 25px;
 }

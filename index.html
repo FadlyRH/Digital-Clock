@@ -7,20 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="clock">
-        <h1 id="time">00:00:00</h1>
+    <div class="container">
+        <div id="jam">00:00:00</div>
+        <div id="tanggal">Senin, 7 September 2026</div>
     </div>
-    <script>
-        function updateClock() {
-            const now = new Date();
-            const hours = String(now.getHours()).padStart(2, '0');
-            const minutes = String(now.getMinutes()).padStart(2, '0');
-            const seconds = String(now.getSeconds()).padStart(2, '0');
-            document.getElementById('time').textContent = `${hours}:${minutes}:${seconds}`;
-        }
-
-        setInterval(updateClock, 1000);
-        updateClock(); // Initial call to display the clock immediately
-    </script>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
