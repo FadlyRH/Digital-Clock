@@ -27,6 +27,8 @@ setInterval(tampilkanjam, 1000);
 //jalankan langsung saat halaman dimuat
 tampilkanjam();
 
+
+//quote random
 const quotes = [
     '"Jangan pernah menyerah pada impianmu. - Yunkai"',
     '"Kesuksesan adalah hasil dari kerja keras dan ketekunan. - Jono"',
@@ -36,4 +38,18 @@ const quotes = [
 const randomquote = quotes[Math.floor(Math.random() * quotes.length)];
 
 document.getElementById("quotes").textContent = randomquote;
+
+//Music background
+const music = document.getElementById("backgroundMusic");
+const musicButton = document.getElementById("musicButton");
+
+musicButton.addEventListener("click", function () {
+    if (music.paused) {
+        music.play();
+        musicButton.textContent = "⏸";
+    } else {
+        music.pause();
+        musicButton.textContent = "▶";
+    }
+});
 
