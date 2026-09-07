@@ -28,9 +28,9 @@ setInterval(tampilkanjam, 1000);
 tampilkanjam();
 
 const quotes = [
-    "Jangan pernah menyerah pada impianmu.",
-    "Kesuksesan adalah hasil dari kerja keras dan ketekunan.",
-    "Setiap hari adalah kesempatan baru untuk memulai lagi."
+    '"Jangan pernah menyerah pada impianmu. - Yunkai"',
+    '"Kesuksesan adalah hasil dari kerja keras dan ketekunan. - Jono"',
+    '"Setiap hari adalah kesempatan baru untuk memulai lagi. - Joko"'
 ];
 
 const randomquote = quotes[Math.floor(Math.random() * quotes.length)];

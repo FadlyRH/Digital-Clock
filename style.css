@@ -1,4 +1,4 @@
-body{
+body.background{
     margin: 0;
     height: 100vh;
 
@@ -13,6 +13,26 @@ body{
     
     font-family: Arial, sans-serif;
 
+}
+body.about-page{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background : url(background/7.gif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    font-family: Arial, sans-serif;
+}
+#tanggal{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: courier new;
 }
 .navbar{
     position: fixed;
